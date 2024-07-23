@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Pichito - Comida Amazónica</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="../assets/logos/lg_restaurantepch.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/logos/lg_restaurantepch.ico" type="image/x-icon">
 
 
     <script>
@@ -14,7 +14,7 @@
             const codigoInput = document.querySelector('.texto').value;
             const codigosValidos = ["MESA01", "MESA02", "MESA03", "MESA04", "MESA05", "MESA06"];
             if (codigosValidos.includes(codigoInput)) {
-                window.location.href = "../menu/menu.html";
+                window.location.href = "menu/menu.html";
             } else {
                 alert("Código inválido. Inténtalo de nuevo.");
             }
