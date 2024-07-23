@@ -71,7 +71,7 @@ input{
 
 
 .fondo{
-    background-image: url(../assets/fondos/fd_index.jpg);
+    background-image: url(assets/fondos/fd_index.jpg);
     content: '';
     position: absolute;
     width: 100%;
